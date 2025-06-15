@@ -1,0 +1,25 @@
+# Core ML & Deep Learning
+tensorflow>=2.11
+scikit-learn
+joblib
+
+# Image Processing
+opencv-python
+pillow
+
+# Data Handling
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Deployment
+streamlit
+
+# Development (Jupyter Support)
+ipykernel
+
+pydot

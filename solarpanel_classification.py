@@ -12,6 +12,12 @@ st.set_page_config(page_title="Solar Panel Defect Classifier", layout="centered"
 st.title("🔍 SolarGuard: Panel Defect Detection Classifier")
 st.markdown("Upload an image of a solar panel to classify its condition:")
 
+@st.cache_resource
+def load_model():
+    return tf.keras.models.load_model("solar_defect_model.keras")
+
+model = load_model()
+
 # Model path
 model_path = "model/solar_panel_detection_MobileNetV2_model.h5"
 

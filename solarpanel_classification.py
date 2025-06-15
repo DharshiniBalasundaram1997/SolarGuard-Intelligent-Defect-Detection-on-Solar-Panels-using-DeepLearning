@@ -6,7 +6,7 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.models import load_model
 
 # Load model
-model = load_model("model/solar_panel_detection_MobileNetV2_model.h5")
+model = load_model("model/solar_panel_detection_MobileNetV2_model.h5", compile=False)
 
 # Class labels
 class_names = ['Bird-Drop', 'Clean', 'Dusty', 'Electrical-Damage', 'Physical-Damage', 'Snow-Covered']

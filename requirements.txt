@@ -1,3 +1,4 @@
-tensorflow==2.11.1
-streamlit==1.35.0
+tensorflow-cpu==2.11.1
+streamlit==1.18.0
 scikit-learn
+# other dependencies

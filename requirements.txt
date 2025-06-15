@@ -1,5 +1,5 @@
+streamlit
 tensorflow==2.14.0
-streamlit==1.18.0
-scikit-learn
-altair==4.2.2
 ml_dtypes==0.2.0
+Pillow
+numpy

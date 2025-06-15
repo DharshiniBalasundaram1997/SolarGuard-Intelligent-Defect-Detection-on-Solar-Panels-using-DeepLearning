@@ -1,5 +1,5 @@
 # Core ML & Deep Learning
-tensorflow>=2.11
+tensorflow
 scikit-learn
 joblib
 

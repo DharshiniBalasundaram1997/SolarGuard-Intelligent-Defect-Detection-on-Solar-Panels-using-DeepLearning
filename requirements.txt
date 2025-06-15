@@ -1,5 +1,5 @@
 # Core ML & Deep Learning
-tensorflow==2.11.1
+tensorflow
 scikit-learn
 joblib
 
@@ -22,4 +22,4 @@ streamlit
 # Development (Jupyter Support)
 ipykernel
 
-pydot
+#pydot

@@ -1,4 +1,4 @@
 tensorflow-cpu==2.11.1
 streamlit==1.18.0
 scikit-learn
-# other dependencies
+altair==4.2.2

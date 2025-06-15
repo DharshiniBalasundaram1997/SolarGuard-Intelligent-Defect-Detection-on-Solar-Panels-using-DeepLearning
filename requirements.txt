@@ -1,25 +1,3 @@
-# Core ML & Deep Learning
-tensorflow
+tensorflow==2.11.1
+streamlit==1.35.0
 scikit-learn
-joblib
-
-# Image Processing
-opencv-python
-pillow
-
-# Data Handling
-numpy
-pandas
-
-# Visualization
-matplotlib
-seaborn
-plotly
-
-# Deployment
-streamlit
-
-# Development (Jupyter Support)
-ipykernel
-
-#pydot

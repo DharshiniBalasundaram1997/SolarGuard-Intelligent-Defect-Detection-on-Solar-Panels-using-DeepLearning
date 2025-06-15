@@ -17,25 +17,25 @@ st.markdown("Upload an image of a solar panel to classify its condition:")
 def load_model():
     return tf.keras.models.load_model("model/solar_panel_detection_MobileNetV2_model.keras")
 
-model = load_model()
+model_path = load_model()
 
 # Model path
-model_path = "model/solar_panel_detection_MobileNetV2_model.h5"
+# model_path = "model/solar_panel_detection_MobileNetV2_model.h5"
 
 # Load model with error handling
-try:
-    if not os.path.exists(model_path):
-        st.error(f"🚫 Model file not found at `{model_path}`.")
-        st.stop()
+# try:
+#     if not os.path.exists(model_path):
+#         st.error(f"🚫 Model file not found at `{model_path}`.")
+#         st.stop()
 
-    from tensorflow.keras.applications import MobileNetV2  # Include in case of transfer learning
-    model = load_model(model_path, compile=False)
-    # Optional: include custom_objects if needed
-    # model = load_model(model_path, compile=False, custom_objects={"MobileNetV2": MobileNetV2})
-except Exception as e:
-    st.error("❌ Failed to load the model.")
-    st.exception(e)
-    st.stop()
+#     from tensorflow.keras.applications import MobileNetV2  # Include in case of transfer learning
+#     model = load_model(model_path, compile=False)
+#     # Optional: include custom_objects if needed
+#     # model = load_model(model_path, compile=False, custom_objects={"MobileNetV2": MobileNetV2})
+# except Exception as e:
+#     st.error("❌ Failed to load the model.")
+#     st.exception(e)
+#     st.stop()
 
 # Class labels
 class_names = ['Bird-Drop', 'Clean', 'Dusty', 'Electrical-Damage', 'Physical-Damage', 'Snow-Covered']

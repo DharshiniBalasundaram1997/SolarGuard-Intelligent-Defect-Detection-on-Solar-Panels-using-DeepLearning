@@ -1,9 +1,9 @@
-✅ #*Project Overview Goal:*
+# ✅ *Project Overview Goal:*
 - Develop a system to:
       - → Classify solar panel images by condition (e.g., Dusty, Clean)
       - → Deploy results via an interactive Streamlit app for real-time inspection and maintenance recommendations
 
-🔧 ##*Key Components:*
+## 🔧 *Key Components:*
 
 **1. Image Classification (Deep Learning – CNN):**
    ***Goal:*** Predict the condition of solar panels
@@ -12,7 +12,7 @@
    ***Aim:*** Automate classification of solar panels to prioritize maintenance
 
 
-🚀 ##*Approach Summary*
+## 🚀 *Approach Summary*
 1. **Data Cleaning & Preprocessing**
    * Resize images to 224x224
    * Normalize pixel values
@@ -35,8 +35,6 @@
 -  Users upload images to get:
    - → Panel condition classification
 
-#*Final Output:*
+## *Final Output:*
 1. **Classification:** Accuracy, Precision, Recall, F1-Score
 2. **Streamlit Application:** Real-time image analysis and visualization
-
-

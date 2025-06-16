@@ -1,4 +1,10 @@
 # SolarGuard-Intelligent-Defect-Detection-on-Solar-Panels-using-DeepLearning
+
+Data Set:
+Dataset: [Solar_Panel_Dataset](https://drive.google.com/drive/folders/1DVsEElxvoXNDeJ90IFf1QGQcOzVCD_rX)
+
+
+
 Classification Task: Identifying Solar Panel images by Conditions
 
 
